@@ -11,3 +11,7 @@ Content of this file should be added to system menu of FarManager. To do this, j
 
 FarCommandMJPEG.bat
 Batch File to use video convertation through CLI. Used in conjunction with FarMenu.ini file
+To use this file directly you must set system ENV:
+SET FFMPEG-Q=<0-32>     - Video quality 
+SET FFMPEG-CV=          - Video-codec name (ex. h264_qsv mjpeg prores)
+SET FFMPEG-OPT=         - Additional options(ex. "-hwaccel qsv" - to use QuickSync hardware encoding to h264 )
