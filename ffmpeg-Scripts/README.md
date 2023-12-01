@@ -3,6 +3,7 @@ I use it to perform batch conversions to MJPeg, Prores, H264(with hardware encod
 Additional notes:
 To execute Powershell scrypts, you can use this: 
     powershell.exe loopvideo.ps1 <arguments>
+    
 
 LoopVideoToItself.ps1
 Script makes video looped to itself, using crossfading (seamless looping last frame to begining). 
