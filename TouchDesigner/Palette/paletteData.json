@@ -1,0 +1,247 @@
+{
+    "children": [
+        {
+            "id": "2.3",
+            "name": "paletteData.json",
+            "path": "\\paletteData.json",
+            "type": "file"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.4.1",
+                    "name": "pjlink.tox",
+                    "path": "/tools/pjlink.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.4",
+            "name": "tools",
+            "path": "/tools",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.8.1",
+                    "name": "GetNormal.tox",
+                    "path": "/Vectors/GetNormal.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.8.2",
+                    "name": "2VectorDifference.tox",
+                    "path": "/Vectors/2VectorDifference.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.8.3",
+                    "name": "VectorVisor.tox",
+                    "path": "/Vectors/VectorVisor.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.8.4",
+                    "name": "RotationAngles.tox",
+                    "path": "/Vectors/RotationAngles.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.8",
+            "name": "Vectors",
+            "path": "/Vectors",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.9.2",
+                    "name": "KinectSkeleton.tox",
+                    "path": "/Kinect/KinectSkeleton.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.9.3",
+                    "name": "NumberOfPersons.tox",
+                    "path": "/Kinect/NumberOfPersons.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.9",
+            "name": "Kinect",
+            "path": "/Kinect",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.10.1",
+                    "name": "ClipPointCloud.tox",
+                    "path": "/PointCloud/ClipPointCloud.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.10.2",
+                    "name": "PointDistanceMap.tox",
+                    "path": "/PointCloud/PointDistanceMap.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.10.3",
+                    "name": "TOPDistanceMap.tox",
+                    "path": "/PointCloud/TOPDistanceMap.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.10.4",
+                    "name": "PointDistanceMap1.tox",
+                    "path": "/PointCloud/PointDistanceMap1.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.10",
+            "name": "PointCloud",
+            "path": "/PointCloud",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.12.1",
+                    "name": "inLine.tox",
+                    "path": "/TOP/inLine.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.12",
+            "name": "TOP",
+            "path": "/TOP",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.13.1",
+                    "name": "PatternIterator.tox",
+                    "path": "/CHOP iterators/PatternIterator.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.13",
+            "name": "CHOP iterators",
+            "path": "/CHOP iterators",
+            "type": "directory"
+        },
+        {
+            "children": [],
+            "id": "2.14",
+            "name": "HelpNotes",
+            "path": "/HelpNotes",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.15.1",
+                    "name": "DelayOperators.tox",
+                    "path": "/CHOP Hints/DelayOperators.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.15",
+            "name": "CHOP Hints",
+            "path": "/CHOP Hints",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.17.1",
+                    "name": "MouseTouch.tox",
+                    "path": "/Panels/MouseTouch.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.17",
+            "name": "Panels",
+            "path": "/Panels",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.18.2",
+                    "name": "SlowSnow.tox",
+                    "path": "/VFX/SlowSnow.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.18",
+            "name": "VFX",
+            "path": "/VFX",
+            "type": "directory"
+        },
+        {
+            "children": [
+                {
+                    "id": "2.19.1",
+                    "name": "IteratorsAndCounters.tox",
+                    "path": "/WorkInProgress/IteratorsAndCounters.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.19.2",
+                    "name": "IntervalIterator.tox",
+                    "path": "/WorkInProgress/IntervalIterator.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.19.3",
+                    "name": "UpDownCounterUI.tox",
+                    "path": "/WorkInProgress/UpDownCounterUI.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.19.4",
+                    "name": "Combine0_1LogicChanell.tox",
+                    "path": "/WorkInProgress/Combine0_1LogicChanell.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.19.5",
+                    "name": "MaskPixels.tox",
+                    "path": "/WorkInProgress/MaskPixels.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.19.6",
+                    "name": "TextAnimation.tox",
+                    "path": "/WorkInProgress/TextAnimation.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.19.7",
+                    "name": "SmokeInteraction.tox",
+                    "path": "/WorkInProgress/SmokeInteraction.tox",
+                    "type": "file"
+                },
+                {
+                    "id": "2.19.8",
+                    "name": "WinController.tox",
+                    "path": "/WorkInProgress/WinController.tox",
+                    "type": "file"
+                }
+            ],
+            "id": "2.19",
+            "name": "WorkInProgress",
+            "path": "/WorkInProgress",
+            "type": "directory"
+        }
+    ],
+    "id": "2",
+    "localRoot": "app.userPaletteFolder",
+    "name": "My Components",
+    "palette": "My Components",
+    "path": "app.userPaletteFolder",
+    "type": "directory"
+}
