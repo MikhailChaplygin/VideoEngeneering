@@ -22,6 +22,6 @@ foreach ($filename in $filenames)
     }
     else 
     {
-        Write-Output("Failed! Clip duration($duration) doesn't allow to choose this fade duration($fadedur). Clip duration must be greater then (2*fadedur)")
+        Write-Output("Failed! Clip duration($duration) doesn't allow to choose this fade duration($fadedur). Clip duration must be longer then (2*fadedur)")
     }
 }
