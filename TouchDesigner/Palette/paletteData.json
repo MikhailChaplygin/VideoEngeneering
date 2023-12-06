@@ -109,12 +109,6 @@
                     "type": "file"
                 },
                 {
-                    "id": "2.7.3",
-                    "name": "PointDistanceMap1.tox",
-                    "path": "\\PointCloud\\PointDistanceMap1.tox",
-                    "type": "file"
-                },
-                {
                     "id": "2.7.4",
                     "name": "TOPDistanceMap.tox",
                     "path": "\\PointCloud\\TOPDistanceMap.tox",
