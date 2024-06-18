@@ -14,11 +14,12 @@ foreach ($filename in $filenames)
         $ExecutionString = $($ffmpeg_path+"ffmpeg.exe")
         $ExecParam = " -loglevel info -i `"$filename`" -filter_complex " +
                         "`"[0]split[body][pre];" +
-                        "[body]trim=$fadedur,setpts=PTS-STARTPTS[main];" +
+                        "[body]trim=$fadedur,format=yuva420p,setpts=PTS-STARTPTS[main];" +
                         "[pre]trim=duration=$fadedur,format=yuva420p,fade=d=$fadedur`:alpha=true,setpts=PTS+($($duration - $fadedur*2)/TB)[jt];" +
                         "[main][jt]overlay, format=yuva420p`" -an -c:v $codec -b:v $bitrate " +
                         "`"$($f_inf.DirectoryName+"\"+$f_inf.BaseName+$("_l"+$fadedur+$f_inf.Extension))`""
         Invoke-Expression "& `"$ExecutionString`" $ExecParam"
+        Write-Output($ExecutionString," ",$ExecParam)
     }
     else 
     {
