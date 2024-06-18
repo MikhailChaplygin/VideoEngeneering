@@ -1,9 +1,9 @@
-These scrypts are very handy when using with file managers(Far, TotalCommander) as system menu commands. Just create new menu item in your filemanager to use these scrypts, or you can also find already existing presets here(FarMenu.ini). 
+These scrypts are very handy when using with file managers(Far, TotalCommander) as system menu commands. Just create new menu item in your filemanager to use these scrypts, or you can also find already existing presets at FarMenu.ini. 
 I use it to perform batch conversions to MJPeg, Prores, H264(with hardware encoding accelration - QuickSync). You can define your own presets, by changing codecname(read next).
 Additional notes:
 To execute Powershell scrypts, you can use this: 
     powershell.exe loopvideo.ps1 <arguments>
-    
+
 
 LoopVideoToItself.ps1
 Script makes video looped to itself, using crossfading (seamless looping last frame to begining). 
